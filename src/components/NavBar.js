@@ -7,25 +7,25 @@ const NavBar = ({ currentPage, switchPage }) => {
       <a href="#Home" onClick={() => switchPage('Home')} className={currentPage === 'Home'}>
         <h1>Portfolio</h1>
       </a>
-      <ul>
+      <ul className='nav-menu'>
         <li>
           <a href="#Projects" onClick={() => switchPage('Projects')} className={currentPage === 'Projects'}>
-            <h1>Projects</h1>
+            Projects
           </a>
         </li>
         <li>
           <a href="#About" onClick={() => switchPage('About')} className={currentPage === 'About'}>
-            <h1>About Me</h1>
+            About Me
           </a>
         </li>
         <li>
           <a href="#Resume" onClick={() => switchPage('Resume')} className={currentPage === 'Resume'}>
-            <h1>Resume</h1>
+            Resume
           </a>
         </li>
         <li>
           <a href="#Contact" onClick={() => switchPage('Contact')} className={currentPage === 'Contact'}>
-            <h1>Contact</h1>
+            Contact
           </a>
         </li>
       </ul>
