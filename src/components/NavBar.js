@@ -1,13 +1,17 @@
 import './NavBarStyles.css';
-import React from 'react'
+import React, { useState } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = ({ currentPage, switchPage }) => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
     <div className="header">
       <a href="#Home" onClick={() => switchPage('Home')} className={currentPage === 'Home'}>
         <h1>Portfolio</h1>
       </a>
-      <ul className='nav-menu'>
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <a href="#Projects" onClick={() => switchPage('Projects')} className={currentPage === 'Projects'}>
             Projects
@@ -29,6 +33,13 @@ const NavBar = ({ currentPage, switchPage }) => {
           </a>
         </li>
       </ul>
+      <div className="hamburger" onClick={handleClick}>
+        {click ? (
+        <FaTimes size={20} style={{ color: "#fff" }}/>
+        ) : (
+        <FaBars size={20} style={{ color: "#fff" }}/>
+        )}
+      </div>
     </div>
   )
 }
