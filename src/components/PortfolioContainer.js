@@ -5,15 +5,15 @@ import Home from './Home';
 import Projects from './Projects';
 import Resume from './Resume';
 import NavBar from './NavBar';
-import HeroImg from './HeroImg';
-import Footer from './Footer';
+// import HeroImg from './HeroImg';
+
 
 function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
     if (currentPage === 'Home') {
-      return <Home />;
+      return <Home currentPage={currentPage} switchPage={switchPage}/>;
     }
     if (currentPage === 'Projects') {
       return <Projects />;
@@ -32,8 +32,7 @@ function PortfolioContainer() {
   return (
     <div>
       <NavBar currentPage={currentPage} switchPage={switchPage} />
-      <HeroImg currentPage={currentPage} switchPage={switchPage} />
-      <Footer />
+      {/* <HeroImg currentPage={currentPage} switchPage={switchPage} /> */}
       {renderPage()}
     </div>
   );
