@@ -6,6 +6,7 @@ import Projects from './Projects';
 import Resume from './Resume';
 import NavBar from './NavBar';
 import HeroImg from './HeroImg';
+import Footer from './Footer';
 
 function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -32,6 +33,7 @@ function PortfolioContainer() {
     <div>
       <NavBar currentPage={currentPage} switchPage={switchPage} />
       <HeroImg currentPage={currentPage} switchPage={switchPage} />
+      <Footer />
       {renderPage()}
     </div>
   );
