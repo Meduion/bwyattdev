@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import About from './About';
-import Contact from './Contact';
-import Home from './Home';
-import Projects from './Projects';
-import Resume from './Resume';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 import NavBar from './NavBar';
-// import HeroImg from './HeroImg';
-
 
 function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -32,7 +30,6 @@ function PortfolioContainer() {
   return (
     <div>
       <NavBar currentPage={currentPage} switchPage={switchPage} />
-      {/* <HeroImg currentPage={currentPage} switchPage={switchPage} /> */}
       {renderPage()}
     </div>
   );
