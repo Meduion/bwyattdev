@@ -1,10 +1,12 @@
 import React from 'react'
 import Footer from '../Footer'
+import HeroImg2 from '../HeroImg2';
 
 const Resume = () => {
   return (
     <div>
-      < Footer />
+      <HeroImg2 heading="RESUME" text="Check out my resume below" />
+      <Footer />
     </div>
   )
 }
