@@ -1,6 +1,6 @@
 import React from 'react'
-import HeroImg from './HeroImg';
-import Footer from './Footer';
+import HeroImg from '../HeroImg';
+import Footer from '../Footer';
 
 const Home = ({ currentPage, switchPage }) => {
 
