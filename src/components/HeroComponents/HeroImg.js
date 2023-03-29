@@ -2,7 +2,7 @@ import './HeroImgStyles.css';
 
 import React from 'react'
 
-import IntroImg from '../assets/hero-main.jpg';
+import IntroImg from '../../assets/hero-main.jpg';
 
 const HeroImg = ({ currentPage, switchPage }) => {
   return (
