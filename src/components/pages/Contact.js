@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from '../Footer'
-import HeroImg2 from '../HeroImg2';
+import Footer from '../Footer/Footer'
+import HeroImg2 from '../HeroComponents/HeroImg2';
 
 const Contact = () => {
   return (

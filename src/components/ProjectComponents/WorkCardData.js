@@ -1,5 +1,5 @@
-import pro1 from '../assets/snowbirdexchange.jpeg';
-import pro2 from '../assets/whatscookingprofile.jpg';
+import pro1 from '../../assets/snowbirdexchange.jpeg';
+import pro2 from '../../assets/whatscookingprofile.jpg';
 
 const ProjectCardData = [
   {
