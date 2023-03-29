@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bwyattdev/static/css/main.f7e7b81e.css",
+    "main.js": "/bwyattdev/static/js/main.41a21a42.js",
+    "static/media/snowbirdexchange.jpeg": "/bwyattdev/static/media/snowbirdexchange.fa048d335c26489853f4.jpeg",
+    "static/media/mini-headshot.png": "/bwyattdev/static/media/mini-headshot.ab2a67512a6ad23edd7c.png",
+    "static/media/whatscookingprofile.jpg": "/bwyattdev/static/media/whatscookingprofile.a5d8a4de4760745e7644.jpg",
+    "static/media/hero-main.jpg": "/bwyattdev/static/media/hero-main.5901c50f6595a071dbd8.jpg",
+    "index.html": "/bwyattdev/index.html",
+    "main.f7e7b81e.css.map": "/bwyattdev/static/css/main.f7e7b81e.css.map",
+    "main.41a21a42.js.map": "/bwyattdev/static/js/main.41a21a42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7e7b81e.css",
+    "static/js/main.41a21a42.js"
+  ]
+}
