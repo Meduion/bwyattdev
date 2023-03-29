@@ -1,24 +1,17 @@
 import './ProjectCardStyles.css';
-import pro1 from '../assets/snowbirdexchange.jpeg';
-import pro2 from '../assets/whatscookingprofile.jpg';
 
 import React from 'react'
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
   return (
-    <div className='work-container'>
-      <h1 className='project-heading'>Projects</h1>
-      <div className='project-container'>
-        <div className='project-card'>
-          <img src={pro1} alt='The Snowbird Exchange'></img>
-          <h2 className='project-title'>Project title</h2>
-          <div className='pro-details'>
-            <p>This is text</p>
-            <div className='pro-btns'>
-              <a href='https://meduion.github.io/the-snowbird-exchange/' className='btn'>View</a>
-              <a href='https://github.com/Meduion/the-snowbird-exchange' className='btn'>Source</a>
-            </div>
-          </div>
+    <div className='project-card'>
+      <img src={props.imgsrc} alt='The Snowbird Exchange'></img>
+      <h2 className='project-title'>{props.title}</h2>
+      <div className='pro-details'>
+        <p>{props.text}</p>
+        <div className='pro-btns'>
+          <a href={props.view} className='btn'>View</a>
+          <a href={props.source} className='btn'>Source</a>
         </div>
       </div>
     </div>
