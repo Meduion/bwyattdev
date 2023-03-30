@@ -11,8 +11,8 @@ const HeroImg = ({ currentPage, switchPage }) => {
         <img className='intro-img' src={IntroImg} alt='Open Computer with Code' />
       </div>
       <div className='content'>
-        <p>HI, I'M A FREELANCER</p>
-        <h1>React Developer.</h1>
+        <p>HI, I'M A FULL-STACK</p>
+        <h1>Web Developer</h1>
         <div>
           <a href="#Projects" onClick={() => switchPage('Projects')} className={`btn ${currentPage === 'Projects'}`}>
             Projects
