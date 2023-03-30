@@ -28,11 +28,15 @@ const Footer = () => {
           </div>
         </div>
         <div className='right'>
-          <h4>About the company</h4>
-          <p>This is Brian Wyatt. I enjoy discussing new projects and design challenges.</p>
+          <h4>Brian Wyatt - Web Developer</h4>
+          <p>Check out my LinkedIn or GitHub below.</p>
           <div className='social'>
-            <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }}/>
-            <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }}/>
+            <a href='https://www.linkedin.com/in/bwyattdev/' target='_blank' rel='noreferrer'>
+              <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }}/>
+            </a>
+            <a href='https://github.com/Meduion' target='_blank' rel='noreferrer'>
+              <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }}/>
+            </a>
           </div>
         </div>
       </div>

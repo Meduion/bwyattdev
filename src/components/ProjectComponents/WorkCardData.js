@@ -1,5 +1,5 @@
-import pro1 from '../../assets/snowbirdexchange.jpeg';
-import pro2 from '../../assets/whatscookingprofile.jpg';
+import pro1 from '../../assets/snowbird.png';
+import pro2 from '../../assets/cooking.png';
 
 const ProjectCardData = [
   {
@@ -12,7 +12,7 @@ const ProjectCardData = [
   {
     imgsrc: pro2,
     title: "What's Cooking",
-    text: "A recipe finding and storage website tied to a third party API. Create an account, login, and save your recipes to your account. Offers functionality to create and save your own recipes as well as linking to external sites for the full recipes.",
+    text: "A recipe finding and storage website tied to a third party API. Users can create an account, login, and save their recipes to their account. The interface offers functionality to create and save your own recipes, as well as linking to external sites for the full recipes.",
     view: "https://whats--cooking.herokuapp.com/",
     source: "https://github.com/Meduion/whats-cooking"
   },

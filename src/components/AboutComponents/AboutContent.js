@@ -4,11 +4,12 @@ import photo from '../../assets/mini-headshot.png';
 import React from 'react'
 
 const AboutContent = () => {
+  
   return (
     <div className='about'>
       <div className='left'>
         <h1>Who Am I?</h1>
-        <p>I'm a full stack developer. I build applications that can serve both client and server to provide for all my client's needs.</p>
+        <p>I'm a full stack developer currently living in Saint John, NB. I've entered the tech industry seeking new professional challenges and creative opportunities.</p>
       </div>
       <div className='right'>
         <div className='img-container'>
