@@ -20,7 +20,7 @@ const NavBar = ({ currentPage, switchPage }) => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <a href="#Home" onClick={() => switchPage('Home')} className={currentPage === 'Home'}>
-        <h1>Brian Wyatt</h1>
+        <h1>BRIAN WYATT</h1>
       </a>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
