@@ -1,5 +1,6 @@
 import pro1 from '../../assets/snowbird.png';
 import pro2 from '../../assets/cooking.png';
+import pro3 from '../../assets/scheduler.jpeg';
 
 const ProjectCardData = [
   {
@@ -15,6 +16,13 @@ const ProjectCardData = [
     text: "A recipe finding and storage website tied to a third party API. Users can create an account, login, and save their recipes to their account. The interface offers functionality to create and save your own recipes, as well as linking to external sites for the full recipes.",
     view: "https://whats--cooking.herokuapp.com/",
     source: "https://github.com/Meduion/whats-cooking"
+  },
+  {
+    imgsrc: pro3,
+    title: "Day by Day",
+    text: "A basic workday scheduling app that allows you to add tasks for a standard workday and save them in local storage, available when returning to the page later. The calendar and time update automatically to the current time and the time slots will change color as they pass.",
+    view: "https://meduion.github.io/day-by-day/",
+    source: "https://github.com/Meduion/day-by-day"
   },
 ];
 
