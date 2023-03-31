@@ -1,0 +1,35 @@
+.resume {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.resume .left {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  width: 49%;
+}
+
+.resume .left h2 {
+  margin: 1.2rem 0;
+}
+
+.resume .right {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  width: 49%;
+}
+
+.resume .right h2 {
+  margin: 1.2rem 0;
+}
+
+.resume .under {
+  padding-top: 3rem;
+}
