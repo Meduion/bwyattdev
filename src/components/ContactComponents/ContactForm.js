@@ -1,8 +1,9 @@
 import './ContactFormStyles.css';
 import React, { useState } from 'react';
-import { isEmail } from 'validator/lib/isEmail';
+import isEmail from 'validator/lib/isEmail';
 
 const ContactForm = () => {
+  // Following format from here: https://webtips.dev/solutions/get-form-values-on-submit-in-react
   const [data, setData] = useState({
     name: '',
     email: '',
