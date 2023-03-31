@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bwyattdev/static/css/main.5e73f3d9.css",
-    "main.js": "/bwyattdev/static/js/main.0b454b12.js",
+    "main.js": "/bwyattdev/static/js/main.6d8f8595.js",
     "static/media/snowbird.png": "/bwyattdev/static/media/snowbird.c7aede28ab60105d3982.png",
     "static/media/cooking.png": "/bwyattdev/static/media/cooking.fd006388022dc1e85d4a.png",
     "static/media/mini-headshot.png": "/bwyattdev/static/media/mini-headshot.38106bfcd94cafcaae5d.png",
@@ -10,10 +10,10 @@
     "static/media/webDevResume.docx": "/bwyattdev/static/media/webDevResume.3cf98d1c44ad2d81264d.docx",
     "index.html": "/bwyattdev/index.html",
     "main.5e73f3d9.css.map": "/bwyattdev/static/css/main.5e73f3d9.css.map",
-    "main.0b454b12.js.map": "/bwyattdev/static/js/main.0b454b12.js.map"
+    "main.6d8f8595.js.map": "/bwyattdev/static/js/main.6d8f8595.js.map"
   },
   "entrypoints": [
     "static/css/main.5e73f3d9.css",
-    "static/js/main.0b454b12.js"
+    "static/js/main.6d8f8595.js"
   ]
 }
