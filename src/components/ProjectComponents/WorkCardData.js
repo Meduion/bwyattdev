@@ -1,12 +1,12 @@
-import snowbird from '../../assets/snowbird.png';
+import neighborhood from '../../assets/neighborhood.jpg';
 import whatsCooking from '../../assets/cooking.png';
 import bodyBuddy from '../../assets/body-buddy.png';
 
 const ProjectCardData = [
   {
-    imgsrc: snowbird,
-    title: "The Snowbird Exchange",
-    text: "A travel website that offers the five day weather forecast for your travel location, the current exchange rate to Canadian dollars, and dynamic images from your destination. Trial version, search London, Paris, Miami, Cancun and Rio de Janeiro to explore functionality.",
+    imgsrc: neighborhood,
+    title: "The Neighborhood",
+    text: "A social media network built using the MERN stack with several packages including React Redux and Material UI. This project allows users to create an account, create posts, like posts, read comments, and save friends. Interactions are saved to the database for furture login and use.",
     view: "https://meduion.github.io/the-snowbird-exchange/",
     source: "https://github.com/Meduion/the-snowbird-exchange",
   },

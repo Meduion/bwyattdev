@@ -1,5 +1,5 @@
 import './ResumeContentStyles.css';
-import resume from '../../assets/webDevResume.docx'
+import resume from '../../assets/webDevResume.pdf'
 
 import React from 'react'
 
@@ -25,7 +25,7 @@ const ResumeContent = () => {
         <p>GraphQL</p>
       </div>
       <div>
-        <h2 className='under'><a href={resume} download='webDevResume.docx'>Please click here for a full downloadable resume.</a></h2>
+        <h2 className='under'><a href={resume} download='webDevResume.pdf'>Please click here for a full downloadable resume.</a></h2>
       </div>
     </div>
   )
