@@ -6,7 +6,7 @@
 
   ## Usage
 
-  Simply navigate to my website at [https://meduion.github.io/bwyattdev/](https://meduion.github.io/bwyattdev/) and search the website to see my work and learn more about me.
+  Simply navigate to my website at [https://bwyattdev.github.io/bwyattdev/](https://bwyattdev.github.io/bwyattdev/) and search the website to see my work and learn more about me.
 
   ## License
 
