@@ -38,11 +38,11 @@ const NavBar = ({ currentPage, switchPage }) => {
             Resume
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="#Contact" onClick={() => switchPage('Contact')} className={currentPage === 'Contact'}>
             Contact
           </a>
-        </li>
+        </li> */}
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (
