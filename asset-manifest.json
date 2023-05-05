@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bwyattdev/static/css/main.277d0da1.css",
-    "main.js": "/bwyattdev/static/js/main.f3cb8560.js",
+    "main.js": "/bwyattdev/static/js/main.fcc4df4e.js",
     "static/media/body-buddy.png": "/bwyattdev/static/media/body-buddy.27b5e403cb685a2f0881.png",
     "static/media/cooking.png": "/bwyattdev/static/media/cooking.fd006388022dc1e85d4a.png",
     "static/media/mini-headshot.png": "/bwyattdev/static/media/mini-headshot.38106bfcd94cafcaae5d.png",
@@ -10,10 +10,10 @@
     "static/media/webDevResume.pdf": "/bwyattdev/static/media/webDevResume.15bcb1121d1c89f10c35.pdf",
     "index.html": "/bwyattdev/index.html",
     "main.277d0da1.css.map": "/bwyattdev/static/css/main.277d0da1.css.map",
-    "main.f3cb8560.js.map": "/bwyattdev/static/js/main.f3cb8560.js.map"
+    "main.fcc4df4e.js.map": "/bwyattdev/static/js/main.fcc4df4e.js.map"
   },
   "entrypoints": [
     "static/css/main.277d0da1.css",
-    "static/js/main.f3cb8560.js"
+    "static/js/main.fcc4df4e.js"
   ]
 }
