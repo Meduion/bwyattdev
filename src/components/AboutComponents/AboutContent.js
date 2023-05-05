@@ -9,7 +9,7 @@ const AboutContent = () => {
     <div className='about'>
       <div className='left'>
         <h1>Who Am I?</h1>
-        <p>I'm a full stack developer currently living in Saint John, NB. I've entered the tech industry seeking new professional challenges and creative opportunities.</p>
+        <p>I'm a full stack developer currently living in Saint John, NB. A graduate of the first edX/UNB Full Stack Coding bootcamp, I've entered the tech industry seeking new professional challenges and creative opportunities.</p>
       </div>
       <div className='right'>
         <div className='img-container'>
