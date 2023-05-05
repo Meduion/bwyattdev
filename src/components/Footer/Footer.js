@@ -34,7 +34,7 @@ const Footer = () => {
             <a href='https://www.linkedin.com/in/bwyattdev/' target='_blank' rel='noreferrer'>
               <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }}/>
             </a>
-            <a href='https://github.com/Meduion' target='_blank' rel='noreferrer'>
+            <a href='https://github.com/bwyattdev' target='_blank' rel='noreferrer'>
               <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }}/>
             </a>
           </div>
